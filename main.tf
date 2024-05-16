@@ -5,7 +5,7 @@ resource "aws_instance" "name" {
   key_name        = "devops-kp"
 
   tags = {
-    Name = "jenk-0515"
+    Name = "jenk-0515a"
   }
   user_data = file("jenkins-install.sh")
 }
